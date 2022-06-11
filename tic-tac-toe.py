@@ -100,7 +100,6 @@ def check_draw(board):
     for i in range(3):
         for j in range(3):
             if board[i][j] != "x" and board[i][j] != "o":
-                print(f"current value: {board[i][j]}")
                 return False
     return True
 
